@@ -48,3 +48,4 @@ logs/
 .conf
 /src/app/test
 /src/app/test/
+libs/
