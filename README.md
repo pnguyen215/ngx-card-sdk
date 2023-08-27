@@ -1,27 +1,106 @@
-# NgxCardSdk
+# Angular Resume Card Generation
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.5.
+The **Angular Resume Card Generation** project is a web application that allows users to create visually appealing and professional-looking resume cards using Angular. This project aims to simplify the process of resume creation by providing a user-friendly interface and customizable templates.
 
-## Development server
+## Table of Contents
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- [Angular Resume Card Generation](#angular-resume-card-generation)
+  - [Table of Contents](#table-of-contents)
+  - [Features](#features)
+  - [Getting Started](#getting-started)
+    - [Prerequisites](#prerequisites)
+    - [Installation](#installation)
+  - [Usage](#usage)
+  - [Configuration](#configuration)
+  - [Customization](#customization)
+  - [Contributing](#contributing)
+  - [License](#license)
 
-## Code scaffolding
+## Features
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Choose from a variety of pre-designed templates for your resume card.
+- Easily input your personal details, education history, work experience, and skills.
+- Real-time preview of the resume card as you make changes.
+- Download the generated resume card in various formats (PDF, PNG, etc.).
+- Responsive design, ensuring a seamless experience on both desktop and mobile devices.
 
-## Build
+## Getting Started
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### Prerequisites
 
-## Running unit tests
+Before you begin, ensure you have the following installed:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- Node.js: [Download and install Node.js](https://nodejs.org/)
+- Angular CLI: Install using the following command:
 
-## Running end-to-end tests
+```bash
+npm install -g @angular/cli
+```
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+### Installation
 
-## Further help
+1. Clone the repository:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+```bash
+git clone https://github.com/pnguyen215/ngx-card-sdk.git
+```
+
+```bash
+cd ngx-card-sdk
+```
+
+2. Install dependencies:
+
+```bash
+npm install
+```
+
+3. Start the development server:
+
+```bash
+ng serve --open --port 4201
+```
+
+or
+
+> Set run app with max_old_space_size, example: 2M (2148 KB)
+
+```bash
+set NODE_OPTIONS=--max_old_space_size=2148
+```
+
+```bash
+ng serve --open --port 4201
+```
+
+4. Open your web browser and navigate to `http://localhost:4201` to access the application.
+
+## Usage
+
+1. Launch the Angular Resume Card Generation application using the instructions above.
+
+2. Choose a template that suits your style and industry.
+
+3. Fill in the details for your resume, including personal information, education, work experience, and skills.
+
+4. As you input information, the preview of the resume card will update in real-time.
+
+5. Once you are satisfied with the preview, you can download the resume card in your preferred format.
+
+## Configuration
+
+You can configure certain aspects of the application by modifying the `src/app/config.ts` file. This includes default values, colors, and other settings.
+
+## Customization
+
+If you want to customize the application further, you can explore the components and styles in the `src/app` directory. The application is structured in a modular way, making it easier to make changes.
+
+## Contributing
+
+Contributions to the Angular Resume Card Generation project are welcome! If you find any bugs, have feature requests, or want to contribute in any other way, please open an issue or submit a pull request on the GitHub repository.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
