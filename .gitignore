@@ -46,3 +46,5 @@ Thumbs.db
 logs/
 .log
 .conf
+/src/app/test
+/src/app/test/
